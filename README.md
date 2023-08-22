@@ -1,2 +1,2 @@
 # music-player
- favourite music website
+ listen to my favourite music
