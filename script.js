@@ -1,20 +1,20 @@
 console.log("Welcome To Music");
 //initialize
 let songIndex=0;
-let audioElement=new Audio('C:Users/user/visual stdio/music player/assets/enchanted.mp3');
+let audioElement=new Audio('D:/Git uploads/music player/assets/enchanted.mp3');
 let masterPlay=document.getElementById('masterPlay');
 let myProgressBar = document.getElementById('myProgressBar');
 let gif = document.getElementById('gif');
 let masterSongName= document.getElementById('masterSongName');
 let songItems=Array.from(document.getElementsByClassName('songItem'));
 let songs = [
-    {songName:"Enchanted", filePath:"C:Users/user/visual stdio/music player/assets/enchanted.mp3" , coverPath:"C:Users/user/visual stdio/music player/assets/Taylor.jpg"},
-    {songName:"Shout out", filePath:"C:Users/user/visual stdio/music player/assets/Shout out.mp3" , coverPath:"C:Users/user/visual stdio/music player/assets/enhypen.jpg"},
-    {songName:"Hare Krishna", filePath:"C:Users/user/visual stdio/music player/assets/Hare Krishna.mp3" , coverPath:"C:Users/user/visual stdio/music player/assets/krishna1.jpg"},
-    {songName:"Dynamite", filePath:"C:Users/user/visual stdio/music player/assets/Dynamite.mp3" , coverPath:"C:Users/user/visual stdio/music player/assets/BTS.jpg"},
-    {songName:"Naruto", filePath:"C:Users/user/visual stdio/music player/assets/Naruto.mp3" , coverPath:"C:Users/user/visual stdio/music player/assets/naruto.jpg"},
-    {songName:"Perfect", filePath:"C:Users/user/visual stdio/music player/assets/Perfect.mp3" , coverPath:"C:Users/user/visual stdio/music player/assets/onedirection.jpg"},
-    {songName:"On My Way", filePath:"C:Users/user/visual stdio/music player/assets/On My Way.mp3" , coverPath:"C:Users/user/visual stdio/music player/assets/Alanwalker.jpg"}
+    {songName:"Enchanted", filePath:"D:/Git uploads/music player/assets/enchanted.mp3" , coverPath:"D:/Git uploads/music player/assets/Taylor.jpg"},
+    {songName:"Shout out", filePath:"D:/Git uploads/music player/assets/Shout out.mp3" , coverPath:"D:/Git uploads/music player/assets/enhypen.jpg"},
+    {songName:"Hare Krishna", filePath:"D:/Git uploads/music player/assets/Hare Krishna.mp3" , coverPath:"D:/Git uploads/music player/assets/krishna1.jpg"},
+    {songName:"Dynamite", filePath:"D:/Git uploads/music player/assets/Dynamite.mp3" , coverPath:"D:/Git uploads/music player/assets/BTS.jpg"},
+    {songName:"Naruto", filePath:"D:/Git uploads/music player/assets/Naruto.mp3" , coverPath:"D:/Git uploads/music player/assets/naruto.jpg"},
+    {songName:"Perfect", filePath:"D:/Git uploads/music player/assets/Perfect.mp3" , coverPath:"C:Users/user/visual stdio/music player/assets/onedirection.jpg"},
+    {songName:"On My Way", filePath:"D:/Git uploads/music player/assets/On My Way.mp3" , coverPath:"D:/Git uploads/music player/assets/Alanwalker.jpg"}
 
 ]
 songItems.forEach((element, i) =>{
